@@ -6,69 +6,43 @@ Flip between this CSS file and the HTML to see how things line up.
 
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.*/
 
-/* .clearfix::after { */
-  /* content: ""; */
-  /* clear: both; */
-  /* display: table; */
-/* } */
-
-.about{
-  width: 15px;
-  color: grey; 
+.about {
+   color: grey; 
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .portfolio {
-  /* text-align: right; */
-  width: 15px;
- /* position: relative;  */
   color: grey; 
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact {
-  /* text-align: right; */
-  position: relative;
-  top: 0;
-  right: -40px;
-  width: 15px;
   color: grey; 
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .float_left {
     float: left;
-    /* margin: 0px;
-    padding: 10px 10px; */
 }
   
 .float_right {
     float: right;
+    margin-right: 4px;
+    margin-top: -25px; 
 } 
-   
-/*.container { */
-/* height: 50px; */
-/* margin: 0px 300px; */
-/* background-color: yellow; */
-/* } */
 
 .containerT {
     background-color: white;
-    /* border: solid green; */
-    /* width: 200px; */
-    /* padding: 20px; */
-    height: 50px;
+    height: 40px;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .containerTR {
-  /* width: 80px; */
-  /* top: 20px; */
   color: grey; 
-  padding: 5px;
-  /* size: 33%; */
-  border: solid fuchsia;
+  width: 75px; 
+  margin-right: 200px;
+  margin-bottom: 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -80,8 +54,6 @@ Experiment with deleting lines of code from the CSS to see how it affects the we
     width: 150px; 
     padding: 10px;
     color: white;
-    /* border: solid black; */
-    /* size: 33%; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
   
@@ -90,42 +62,37 @@ color: #4aaaa5;
 font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.contactMe {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
 .containerM {
     background-color: gainsboro;
     padding: 20px;
-    /* background-color: yellow; */
     height: 425px;
-    /* color: #777777; */
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
 .containerMR {
-    /* text-align: center;
-  background-color: #4aaaa5; */
   margin: 0px 30px 0px 170px;
   height: 45px;
   width: 150px; 
   padding: 10px; 
   color: white;
-  /* border: solid black yellow; */
-  /* size: 33%;  */
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .containerMM {
     background-color: #ffffff;
-   /* border: 5px solid orangered; */
-   /* margin-right: 15px;
-   margin-top: 5px; */
     width: 960px;
     height: 325px;
     padding: 25px;
     margin: 20px 150px;
     color: #777777;
     font-family: Arial, Helvetica, sans-serif;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
-  
+
+
 .blueLine{
     background-color: teal;
     height: 5px;
