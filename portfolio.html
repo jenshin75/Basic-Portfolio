@@ -1,12 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Assignment #1</title>
+
+<!-- This line is money! It points your HTML to the CSS file. -->
+
+<!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
 </head>
+
 <body>
-            WIP Portfolio
+
+<div class="containerT float_left"></div>
+  <div class="containerTL">
+    <h3>Jenny Shin</h3>
+</div>
+  
+<div class="containerTR float_right">
+  <a href="contact.html">Contact</a>
+</div>
+
+<div class="containerTR float_right">
+  <a href="portfolio.html">Portfolio</a>
+</div>
+
+<div class="containerTR float_right">
+  <a href="index.html">About</a>
+</div>
+
+<style>
+
+div.relative {
+  position: relative;
+  width: 150px;
+  height: 50px;
+}
+
+div.band1 {
+  position: absolute;
+  top: 325px;
+  left: 203px;
+  width: 140px;
+  height: 20px;
+}
+
+div.band2 {
+  position: absolute;
+  top: 325px;
+  left: 368px;
+  width: 140px;
+  height: 20px;
+}
+
+#pic_image {
+    height: 150px;
+    width: 150px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+</style>
+
+<div class="containerM">
+<div class="containerMM">
+<div class="aboutMe">
+  <h3>Portfolio</h3>
+
+<hr>
+
+<div class="relative band1 portfolioBand">Scratch Game #1</div>
+  <!-- <a href="https://scratch.mit.edu/projects/301648039/"></a> -->
+
+<div class="relative band2 portfolioBand">Scratch Game #2</div>
+  <!-- <a href="https://scratch.mit.edu/projects/301648039/"></a> -->
+
+<img id="pic_image" src="../Basic-Portfolio/assets/images/1.jpeg" class="float_left" alt="Your Name">
+
+<img id="pic_image" src="../Basic-Portfolio/assets/images/2.jpeg" class="float_left" alt="Your Name">
+
+<img id="pic_image" src="../Basic-Portfolio/assets/images/3.jpg" class="float_left" alt="Your Name">
+
+</div>
+</div>
+</div>
+
+<div class="blueLine"></div>
+
+<div class="containerB">
+  <H6>Copyright @ 2019</H6>
+</div>
+
 </body>
 </html>
