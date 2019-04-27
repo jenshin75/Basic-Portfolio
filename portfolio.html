@@ -5,120 +5,158 @@
   <meta charset="UTF-8">
   <title>Assignment #1</title>
 
-<!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- This line is money! It points your HTML to the CSS file. -->
 
-<!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
   <link rel="stylesheet" type="text/css" href="../Basic-Portfolio/assets/css/style.css">
 </head>
 
 <body>
 
-<div class="containerT float_left"></div>
+  <div class="containerT float_left"></div>
   <div class="containerTL">
     <h3>Jenny Shin</h3>
-</div>
-  
-<div class="containerTR float_right">
-  <a href="contact.html">Contact</a>
-</div>
+  </div>
 
-<div class="containerTR float_right">
-  <a href="portfolio.html">Portfolio</a>
-</div>
+  <div class="containerTR float_right">
+    <a href="contact.html">Contact</a>
+  </div>
 
-<div class="containerTR float_right">
-  <a href="index.html">About</a>
-</div>
+  <div class="containerTR float_right">
+    <a href="portfolio.html">Portfolio</a>
+  </div>
 
-<style>
+  <div class="containerTR float_right">
+    <a href="index.html">About</a>
+  </div>
 
-.relative {
-  position: relative;
-  /* float: left; */
-  /* width: 50px;
+  <style>
+    .relative {
+      position: relative;
+      /* float: left; */
+      /* width: 50px;
   height: 50px; */
-  /* padding: 10px; */
-}
+      /* padding: 10px; */
+    }
 
-.band {
-  position: absolute;
-  width: 165px;
-  height: 20px;
-  padding: 5px;
-  margin: 100px auto;
-  /* margin: 5px; 20px 0px 5px;  */
-  /* border: 5px solid orange; */
-}
+    .band {
+      position: absolute;
+      width: 165px;
+      height: 20px;
+      padding: 5px;
+      margin: 100px auto;
+      /* margin: 5px; 20px 0px 5px;  */
+      /* border: 5px solid orange; */
+    }
 
-/* .image {
+    /* .image {
   /* height: 150px;
     width: 150px; */
     /* margin-right: 100px; */
     /* margin-top: 10px; */
     /* margin-right: 5px; */
     /* margin-left: 5px;  */
-/* }  */
+    /* }  */
 
-#image:hover {
-cursor: pointer;
+    #image:hover {
+      cursor: pointer;
+    }
+
+    .containerMP {
+  background-color: #ffffff;
+  width: 960px;
+  height: 550px;
+  /* padding: 25px; */
+  /* border: 5px solid orange; */
+  margin: 20px 150px;
+  color: #777777;
+    }
+
+
+  /* font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+    /* #boxp {
+      border: 5px solid red;
+      /* height: 900px; */
+      /* background-color: #ffffff;
+      width: 960px;
+      padding: 25px;
+      margin: 20px 150px;
+      color: #777777;
+      font-family: Arial, Helvetica, sans-serif;
+    } */
+
+
+  .footer {
+   position: fixed;
+   left: 0;
+   bottom: 20px;
+   width: 100%;
+   height: 45px;
+   /* border: 5px solid red; */
+   color: white;
+   text-align: center;
+
+   background-color: grey;
+    text-align: center;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-</style>
+  </style>
 
-<body>
+  <body>
 
-<div class="containerM">
-<div class="containerMM">
-    <div class="aboutMe">
-        <h3>Portfolio</h3>
-      
-      <hr>
+    <div class="containerM">
+      <div class="containerMM">
+        <!-- <div class="boxp"> -->
+        <div class="aboutMe">
+          <h3>Portfolio</h3>
 
-    <table cellpadding=5px;>
-        <tr>
-          <td>
-              <div class="image band portfolioBand">Scratch Game #1</div>
-              <img onclick="location.href='https://scratch.mit.edu/projects/301648039/';" src="../Basic-Portfolio/assets/images/1.jpeg"
-                         width=175px; height=150px>
-              
-          </td>
-          <td>
-                           <div class="image band portfolioBand">Scratch Game #2</div>
-              <img onclick="location.href='https://scratch.mit.edu/projects/301704767/';" src="../Basic-Portfolio/assets/images/2.jpeg"
-              width=175px; height=150px>
-          </td>
-         </tr>
-        
-          <tr>
-          <td>
-              <div class="relative band image portfolioBand">Trivia Game</div>
-              <img src="../Basic-Portfolio/assets/images/3.jpeg"
-              width=175px; height=150px>
-          </td>
-        
-          <td>
-              <div class="relative band image portfolioBand">Rutgers Info Widget</div>
-              <img src="../Basic-Portfolio/assets/images/4.jpeg" 
-              width=175px; height=150px>
-          </td>
-          </tr>
-          
-          <tr>
-           <td>
-              <div class="relative band image portfolioBand">Rock Paper Scissors</div>
-              <img src="../Basic-Portfolio/assets/images/5.jpeg"
-              width=175px; height=150px>
-          </td>
-            
-          </tr>
-        
-        </table>
-        
+          <hr>
 
+          <table cellpadding=5px;>
+            <tr>
+              <td>
+                <!-- <div class="image band portfolioBand">Scratch Game #1</div> -->
+                <div class="band portfolioBand">Scratch Game #1</div>
+                <img onclick="location.href='https://scratch.mit.edu/projects/301648039/';"
+                  src="../Basic-Portfolio/assets/images/1.jpeg" width=175px; height=150px>
 
+              </td>
+              <td>
+                <!-- <div class="image band portfolioBand">Scratch Game #2</div> -->
 
+                <div class="band portfolioBand">Scratch Game #2</div>
+                <img onclick="location.href='https://scratch.mit.edu/projects/301704767/';"
+                  src="../Basic-Portfolio/assets/images/2.jpeg" width=175px; height=150px>
+              </td>
+            </tr>
 
+            <tr>
+              <td>
+                <!-- <div class="relative band image portfolioBand">Trivia Game</div> -->
+                <div class="relative band portfolioBand">Trivia Game</div>
+                <img src="../Basic-Portfolio/assets/images/3.jpeg" width=175px; height=150px>
+              </td>
 
+              <td>
+                <!-- <div class="relative band image portfolioBand">Rutgers Info Widget</div> -->
+                <div class="relative band portfolioBand">Rutgers Info Widget</div>
+                <img src="../Basic-Portfolio/assets/images/4.jpeg" width=175px; height=150px>
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <!-- <div class="relative band image portfolioBand">Rock Paper Scissors</div> -->
+                <div class="relative band portfolioBand">Rock Paper Scissors</div>
+                <img src="../Basic-Portfolio/assets/images/5.jpeg" width=175px; height=150px>
+              </td>
+
+            </tr>
+
+          </table>
 
 
 
@@ -127,16 +165,22 @@ cursor: pointer;
 
 
 
-<!-- copied code from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table-->
 
-<!-- <table cellpadding=5px;>
+
+
+
+
+
+          <!-- copied code from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table-->
+
+          <!-- <table cellpadding=5px;>
 <tr>
   <td>
       <div class="image band portfolioBand">Hangman</div>
       <img onclick="location.href='https://scratch.mit.edu/projects/301648039/';" src="../Basic-Portfolio/assets/images/1.jpeg"
                  width=150px; height=150px>
            <a href="https://scratch.mit.edu/projects/301648039/"></a> -->
-  <!-- </td>
+          <!-- </td>
   <td>
      <div class="relative image band portfolioBand">RPG Game</div> 
            <img onclick="location.href='https://scratch.mit.edu/projects/301704767/';" src="../Basic-Portfolio/assets/images/2.jpeg"
@@ -176,16 +220,18 @@ cursor: pointer;
 
 
 
-</div>
-</div>
-</div>
+        </div>
+      </div>
+    </div>
 
 
-<div class="blueLine"></div>
+    <div class="blueLine"></div>
 
-<div class="containerB">
-  <H6>Copyright @ 2019</H6>
-</div>
+    <div class="footer">
+    <!-- <div class="containerB"> -->
+      <H6>Copyright @ 2019</H6>
+    </div>
 
-</body>
+  </body>
+
 </html>
