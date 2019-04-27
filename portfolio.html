@@ -32,75 +32,144 @@
 
 <style>
 
-div.relative {
+.relative {
   position: relative;
+  /* float: left; */
   /* width: 50px;
   height: 50px; */
+  /* padding: 10px; */
 }
 
-div.band1 {
+.band {
   position: absolute;
-  top: 325px;
-  left: 203px;
   width: 150px;
   height: 20px;
 }
 
-div.band2 {
-  position: absolute;
-  top: 325px;
-  left: 372px;
-  width: 150px;
-  height: 20px;
+.image {
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
-#pic_image {
-    height: 150px;
-    width: 150px;
-    margin-right: 15px;
-    margin-top: 10px;
-}
-
-#pic_image:hover {
+#image:hover {
 cursor: pointer;
 }
 
 </style>
 
+<body>
+
 <div class="containerM">
 <div class="containerMM">
-<div class="aboutMe">
-  <h3>Portfolio</h3>
+    <div class="aboutMe">
+        <h3>Portfolio</h3>
+      
+      <hr>
 
-<hr>
+    <table cellpadding=5px;>
+        <tr>
+          <td>
+              <div class="image band portfolioBand">Hangman</div>
+              <img onclick="location.href='https://scratch.mit.edu/projects/301648039/';" src="../Basic-Portfolio/assets/images/1.jpeg"
+                         width=150px; height=150px>
+              
+          </td>
+          <td>
+                           <div class="image band portfolioBand">RPG Game</div>
+              <img onclick="location.href='https://scratch.mit.edu/projects/301704767/';" src="../Basic-Portfolio/assets/images/2.jpeg"
+              width=150px; height=150px>
+          </td>
+         </tr>
+        
+          <tr>
+          <td>
+              <div class="relative band image portfolioBand">Trivia Game</div>
+              <img src="../Basic-Portfolio/assets/images/3.jpeg"
+              width=150px; height=150px>
+          </td>
+        
+          <td>
+              <div class="relative band image portfolioBand">Rutgers Info Widget</div>
+              <img src="../Basic-Portfolio/assets/images/4.jpeg" width=150px; height=150px>
+          </td>
+          </tr>
+          
+          <tr>
+           <td>
+              <div class="relative band image portfolioBand">Rock Paper Scissors</div>
+              <img src="../Basic-Portfolio/assets/images/5.jpeg" width=150px; height=150px>
+          </td>
+            
+          </tr>
+        
+        </table>
+        
 
 
-<div class="relative band1 portfolioBand">Hangman</div>
-<img onclick="location.href='https://scratch.mit.edu/projects/301648039/';" 
-id="pic_image" src="../Basic-Portfolio/assets/images/1.jpeg">
-<a href="https://scratch.mit.edu/projects/301648039/"></a>
-
-<div class="relative band2 portfolioBand">RPG Game</div>
-<a href="https://scratch.mit.edu/projects/301704767/"></a>
-<img id="pic_image" src="../Basic-Portfolio/assets/images/2.jpeg">
 
 
 
 
-<table id="table" >
-    <tr>
+
+
+
+
+
+
+
+<!-- copied code from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table-->
+
+<!-- <table cellpadding=5px;>
+<tr>
+  <td>
+      <div class="image band portfolioBand">Hangman</div>
+      <img onclick="location.href='https://scratch.mit.edu/projects/301648039/';" src="../Basic-Portfolio/assets/images/1.jpeg"
+                 width=150px; height=150px>
+           <a href="https://scratch.mit.edu/projects/301648039/"></a> -->
+  <!-- </td>
+  <td>
+     <div class="relative image band portfolioBand">RPG Game</div> 
+           <img onclick="location.href='https://scratch.mit.edu/projects/301704767/';" src="../Basic-Portfolio/assets/images/2.jpeg"
+      width=150px; height=150px>
+  </td>
+ </tr>
+
   <tr>
-    <td>Test1</td><td>(Value1)</td>
+  <td>
+      <div class="relative band image portfolioBand">Trivia Game</div>
+      <img src="../Basic-Portfolio/assets/images/3.jpeg"
+      width=150px; height=150px>
+  </td>
+
+  <td>
+      <div class="relative band image portfolioBand">Rutgers Info Widget</div>
+      <img src="../Basic-Portfolio/assets/images/4.jpeg" width=150px; height=150px>
+  </td>
   </tr>
+  
   <tr>
-    <td>Test2</td><td>(Value2)</td>
+   <td>
+      <div class="relative band image portfolioBand">Rock Paper Scissors</div>
+      <img src="../Basic-Portfolio/assets/images/5.jpeg" width=150px; height=150px>
+  </td>
+    
   </tr>
 
-</table>
+</table> -->
+
+
+
+
+
+
+
+
+
 
 </div>
 </div>
 </div>
+
 
 <div class="blueLine"></div>
 
